@@ -14,10 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 logoText.classList.remove('text-white');
             }
 
-            const navLinks = header.querySelectorAll('.nav-link');
             navLinks.forEach(link => {
                 link.classList.add('text-slate-600');
-                link.classList.remove('md:text-white/90');
+                link.classList.remove('text-white/90');
             });
 
             // CTA Button
@@ -39,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const navLinks = header.querySelectorAll('.nav-link');
             navLinks.forEach(link => {
                 link.classList.remove('text-slate-600');
-                link.classList.add('md:text-white/90');
+                link.classList.add('text-white/90');
             });
 
             const ctaBtn = header.querySelector('.cta-btn');
